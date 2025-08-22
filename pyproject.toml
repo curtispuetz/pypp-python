@@ -1,5 +1,5 @@
 [project]
-name = "pypp-python"
+name = "compy-python"
 version = "0.0.0"
 description = "contains necessary python code to work with Py++"
 authors = [{ name = "Curtis Puetz", email = "todo@example.com" }]
