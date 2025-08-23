@@ -1,2 +1,2 @@
-# Py++ Python
-This library contains necessary python code to work with Py++.
+# Compy Python
+This library contains necessary python code for Compy projects.
