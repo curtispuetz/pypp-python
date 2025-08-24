@@ -1,5 +1,6 @@
 from typing import TypeVar
 
+# TODO: remove these TypeVar things because there is a better way to that now.
 T = TypeVar("T")
 
 
