@@ -1,2 +1,5 @@
-def tg(tup: tuple[any, ...], index: int) -> any:
+from typing import Any
+
+
+def tg(tup: tuple[Any, ...], index: int) -> Any:
     return tup[index]

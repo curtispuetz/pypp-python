@@ -1,9 +1,7 @@
-from typing import TypeVar, Any
-
-T = TypeVar("T")
+from typing import Any
 
 
-def dg(d: dict[Any, T], index: int) -> T:
+def dg[T](d: dict[Any, T], index: int) -> T:
     # note: Use dg (i.e. dict get) to access dictionary elements instead of dict[index].
     # dict[index] can still be used, but at your own risk, because if the index does
     # not exist in the dict, in the C++ transpiled code a KeyError won't be raised, and

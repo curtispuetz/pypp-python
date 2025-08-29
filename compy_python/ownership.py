@@ -1,9 +1,7 @@
-from typing import TypeVar, Annotated
-
-T = TypeVar("T")
+from typing import Annotated
 
 
-def mov(obj: T) -> T:
+def mov[T](obj: T) -> T:
     return obj
 
 
@@ -11,7 +9,7 @@ class PassByValue:
     pass
 
 
-def Valu(typ: T) -> Annotated[T, PassByValue()]:
+def Valu[T](typ: T) -> Annotated[T, PassByValue()]:
     return Annotated[typ, PassByValue()]
 
 
@@ -19,5 +17,5 @@ class TypeIsARef:
     pass
 
 
-def Ref(typ: T) -> Annotated[T, TypeIsARef()]:
+def Ref[T](typ: T) -> Annotated[T, TypeIsARef()]:
     return Annotated[typ, TypeIsARef()]
