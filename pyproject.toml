@@ -1,6 +1,6 @@
 [project]
 name = "compy-python"
-version = "0.0.5"
+version = "0.0.6"
 description = "contains necessary python code for Compy projects"
 authors = [{ name = "Curtis Puetz", email = "compy.main@gmail.com" }]
 readme = "readme.md"

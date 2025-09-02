@@ -1,4 +1,6 @@
-# Compy Python
-This library contains necessary python code for Compy projects.
+# ComPy Python
+This library contains necessary python code for ComPy projects.
 
-Compy (Compiled Python) is a framework for writing Python code that can be transpiled to C++ and then compiled, which will soon release a version 1.0.0.
+ComPy (Compiled Python) is a Python framework for writing Python projects which can be transpiled into C++ (CMake) projects.
+
+https://github.com/curtispuetz/compy-cli
