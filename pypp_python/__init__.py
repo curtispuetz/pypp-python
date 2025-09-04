@@ -18,8 +18,8 @@ from .math import int_pow
 from .nones import NULL
 from .ownership import mov, Valu, Ref
 from .printing import print_address
-from .resources import compy_get_resources
+from .resources import pypp_get_resources
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
 from .union import Uni, isinst, is_none, ug
-from .stl import compy_time
+from .stl import pypp_time
