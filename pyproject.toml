@@ -2,7 +2,7 @@
 name = "pypp-python"
 version = "0.0.0"
 description = "contains necessary python code for Py++ projects"
-authors = [{ name = "Curtis Puetz", email = "pypp.main@gmail.com" }]
+authors = [{ name = "Curtis Puetz", email = "pypp.main@yahoo.com" }]
 readme = "readme.md"
 license = { text = "MIT" }
 requires-python = ">=3.13"
