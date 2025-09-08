@@ -13,7 +13,7 @@ from .custom_types import (
 )
 from .dict_get import dg
 from .exceptionclass import exception
-from .lists import list_reserve
+from .lists import list_reserve, int_list, float_list, str_list
 from .math import int_pow
 from .nones import NULL
 from .ownership import mov, Valu, Ref
