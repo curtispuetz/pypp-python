@@ -11,6 +11,17 @@ from .custom_types import (
     uint64_t,
     float32,
 )
+from .conversions import (
+    to_float32,
+    to_int8_t,
+    to_int16_t,
+    to_int32_t,
+    to_int64_t,
+    to_uint8_t,
+    to_uint16_t,
+    to_uint32_t,
+    to_uint64_t,
+)
 from .dict_get import dg
 from .exceptionclass import exception
 from .lists import list_reserve, int_list, float_list, str_list
