@@ -17,7 +17,6 @@ from .lists import list_reserve, int_list, float_list, str_list
 from .math import int_pow
 from .nones import NULL
 from .ownership import mov, Valu, Ref
-from .printing import print_address
 from .resources import pypp_get_resources
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
