@@ -32,4 +32,4 @@ from .resources import res_dir
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
 from .union import Uni, isinst, is_none, ug
-from .stl import pypp_time
+from .stl import pypp_time as time
