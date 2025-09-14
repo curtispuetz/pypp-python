@@ -12,3 +12,7 @@ def float_list(size: int, value: float = 0.0) -> list[float]:
 
 def str_list(size: int, value: str = "") -> list[str]:
     return [value] * size
+
+
+def lg[T](lst: list[T], index: int) -> T:
+    return lst[index]
