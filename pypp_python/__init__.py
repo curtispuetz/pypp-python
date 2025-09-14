@@ -28,7 +28,7 @@ from .lists import list_reserve, int_list, float_list, str_list
 from .math import int_pow
 from .nones import NULL
 from .ownership import mov, Valu, Ref
-from .resources import pypp_get_resources
+from .resources import pypp_get_resource_dir
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
 from .union import Uni, isinst, is_none, ug
