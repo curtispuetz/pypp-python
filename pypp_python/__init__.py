@@ -35,6 +35,7 @@ from .union import Uni, isinst, is_none, ug
 from . import interfaces
 from . import stl
 from dataclasses import dataclass
+from typing import Iterator, Callable
 
 
 __all__ = [
@@ -81,4 +82,6 @@ __all__ = [
     "interfaces",
     "stl",
     "dataclass",
+    "Iterator",
+    "Callable",
 ]
