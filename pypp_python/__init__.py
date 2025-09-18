@@ -33,6 +33,7 @@ from .strings import to_std_string, to_c_string
 from .tuple_get import tg
 from .union import Uni, isinst, is_none, ug
 from . import stl
+from dataclasses import dataclass
 
 
 __all__ = [
@@ -77,4 +78,5 @@ __all__ = [
     "is_none",
     "ug",
     "stl",
+    "dataclass",
 ]
