@@ -32,6 +32,7 @@ from .resources import res_dir
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
 from .union import Uni, isinst, is_none, ug
+from . import interfaces
 from . import stl
 from dataclasses import dataclass
 
@@ -77,6 +78,7 @@ __all__ = [
     "isinst",
     "is_none",
     "ug",
+    "interfaces",
     "stl",
     "dataclass",
 ]
