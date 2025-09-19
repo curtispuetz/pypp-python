@@ -36,6 +36,7 @@ from . import interfaces
 from . import stl
 from dataclasses import dataclass
 from typing import Iterator, Callable
+from collections import defaultdict
 
 
 __all__ = [
@@ -84,4 +85,5 @@ __all__ = [
     "dataclass",
     "Iterator",
     "Callable",
+    "defaultdict",
 ]
