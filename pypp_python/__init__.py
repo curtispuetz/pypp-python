@@ -27,7 +27,7 @@ from .exceptionclass import exception
 from .lists import list_reserve, int_list, float_list, str_list, lg
 from .math import int_pow
 from .nones import NULL
-from .ownership import mov, Valu, Ref
+from .ownership import mov, Val, Ref
 from .resources import res_dir
 from .strings import to_std_string, to_c_string
 from .tuple_get import tg
@@ -70,7 +70,7 @@ __all__ = [
     "int_pow",
     "NULL",
     "mov",
-    "Valu",
+    "Val",
     "Ref",
     "res_dir",
     "to_std_string",
