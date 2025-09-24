@@ -1,6 +1,7 @@
 # Py++ Python
-This library contains necessary python code for Py++ projects.
 
-Py++ (Compiled Python) is a Python framework for writing Python projects which can be transpiled into C++ (CMake) projects.
+This library should be install for every [Py++](https://pypp-docs.readthedocs.io/) project.
 
-https://github.com/curtispuetz/pypp-cli
+Though it is not required to be able to transpile Py++ code to C++, if you want to be able to run your Py++ code with the Python interpreter or to have a better IDE experience, this library is needed.
+
+Bug reports should be submitted to the Py++ project.
