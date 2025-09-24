@@ -1,7 +1,7 @@
 [project]
 name = "pypp-python"
-version = "0.0.1"
-description = "contains necessary python code for Py++ projects"
+version = "1.0.0-alpha"
+description = "useful when working on Py++ projects"
 authors = [{ name = "Curtis Puetz", email = "pypp.main@yahoo.com" }]
 readme = "readme.md"
 license = { text = "MIT" }
